@@ -1,0 +1,80 @@
+Psuedo-code for assignment 2
+
+class School {
+	public main {
+		open connection to .txt file;
+		Arraylist<Student> mylist = new Arraylist;
+		int i=0;
+		while(.txt file has next) {
+			add from .txt file to Arraylist;
+			calculate avg at Arraylist(i);   //(.getScore1()+.getScore2()+getScore3())/3
+			print out name and avg;
+			i++
+		}//close while	
+	}//close main
+}//close class
+
+class Student {
+	protected String stuID;
+	protected String stuName;
+	protected int score1;
+	protected int score2;
+	protected int score3;
+	public Student(String ID, String Name, int s1, int s2, int s3) {
+		stuID = ID;
+		stuName = Name;
+		score1 = s1;
+		score2 = s2;
+		score3 = s3;
+	}
+	public String getStuID {
+		return stuID;
+	}
+	public String getStuName {
+		return stuName;
+	}
+	public int getScore1 {
+		return score1;
+	}
+	public int getScore2 {
+		return score2;
+	}
+	public int getScore3 {
+		return score3;
+	}
+	public Student getStudent {
+		return Student;
+	}
+	public void AddStudent(Arraylist<Student> Academic_Class, Student Obj){
+		Academic_Class.add(0, Obj);
+	}
+	public void DeleteStudent(Arraylist<Student> Academic_Class, String stuID) {
+		int remove = 0;
+		find student in array with given id;
+		remove = spot found above;
+		Academic_Class.remove(remove);
+	}
+	public void SortLarge(Arraylist<Student> Academic_Class,) {
+		Student xSave, ySave, a, b;
+		int isw = 1;
+		int xLast = Academic_Class.size();
+		while(isw = 1){
+			isw = 0;
+				
+			for(int i = 0; i<xLast-2; i++) {
+				switch(a, compareTo(b))
+					case 1;
+						break;
+					case -1;
+						xSave = mylist.getStudent(i);
+						ySave = mylist.getStudent(i+1);
+						mylist.remove(i);
+						mylist.add(i,ySave);
+						mylist.remove(i+1);
+						mylist.add(i+1, xSave);
+					default;
+						
+			}//end of for loop	
+		}//end of while loop
+	}//end of SortLarge
+}//end of Student
