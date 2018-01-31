@@ -1,0 +1,105 @@
+/*
+    Data Structures Homework 2, part 1. Develope a program which will allow you 
+to read the student records from an input .txt file. As you read wach student 
+record, create an object for that record. Have your object calculate the 
+percentage test score (you may assume that each test was 100 points). Have your
+object store the %score and letter grade for each student (use school standards
+to assign the letter grades and store the %score as an integer).
+   Also create an Arraylist for this academic class. As you read each student 
+record, create their object and store their object and store each student into
+the Arraylist for this academic class.
+*/
+package ds_02_students;
+
+import java.io.*;
+import java.util.*;
+import java.lang.*;
+import javax.swing.*;
+
+public class DS_02_Students {
+
+    public static void main(String[] args) throws Exception {
+        
+        
+        
+        
+        
+        
+        
+    }   
+}
+/*
+//creation of class Objects
+abstract class Object implements Comparable{
+    public abstract String getID();
+    public abstract String getName();
+    public abstract int getScore1();
+    public abstract int getScore2();
+    public abstract int getScore3();
+    
+    
+    //Create compareTo function for Shapes
+    @Override
+    public int compareTo(java.lang.Object o){
+        if(getArea()>((Solids)o).getArea()){
+            return 1;
+        }
+        else if (getArea()<((Solids)o).getArea()){
+            return -1;
+        }
+        else{
+            return 0;
+        }
+    }//end of compareTo function for Shapes
+    
+}
+//close Objects
+*/
+//creation of class Student
+class Student implements Comparable {
+    protected String stuID;
+    protected String stuName;
+    protected String letterGrade;
+    protected int score1;
+    protected int score2;
+    protected int score3;
+    protected int scoreAvg;
+    //constructor for Student
+    public Student (String ID, String Name, int s1, int s2, int s3){
+        this.stuID = ID;
+        this.stuName = Name;
+        this.score1 = s1;
+        this.score2 = s2;
+        this.score3 = s3;
+        this.scoreAvg = Math.round((score1+score2+score3)/3);
+        if(scoreAvg >= 90 && scoreAvg <=100) letterGrade = "A";
+        else if (scoreAvg >= 80 && scoreAvg <=89) letterGrade = "B";
+        else if (scoreAvg >= 70 && scoreAvg <=79) letterGrade = "C";   
+        else if (scoreAvg >= 60 && scoreAvg <=69) letterGrade = "D";
+        else letterGrade = "F";
+    }
+    public String getID() {
+        return stuID;
+    }
+    public String getName() {
+        return stuName;
+    }
+    public String getLetterGrade() {
+        return letterGrade;
+    }
+    public int getScore1() {
+        return score1;
+    }
+    public int getScore2() {
+        return score2;
+    }
+    public int getScore3() {
+        return score3;
+    }
+    public int getScoreAvg() {
+        return scoreAvg;
+    }
+    public int compareTo(Object o) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+}
