@@ -27,4 +27,4 @@ Student ID	Student Name	Test 1	Test2	Test3	Avg Score	Grade	Total Hr	GPA
 45P5		Garrison, J	75	78	72	75		C	39		1.857
 44L2		Levitte, H	56	66	99	73		C	100		2.343
 34K5		Horner, M	67	75	23	55		F	17		1.745
-BUILD SUCCESSFUL (total time: 0 seconds)
+-3.5 0.9 1.5 2.3 8.9 11.2 12.4 15.6 51.2 BUILD SUCCESSFUL (total time: 0 seconds)
