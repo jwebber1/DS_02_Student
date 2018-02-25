@@ -1,30 +1,31 @@
-run:
+"C:\Program Files\Java\jdk-9.0.4\bin\java" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.3\lib\idea_rt.jar=52382:C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.3\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\Jonathan\IdeaProjects\DS_02_Students3\out\production\DS_02_Students3 DS_02_Students3
 Student ID	Student Name	Test 1	Test2	Test3	Avg Score	Grade	Total Hr	GPA
-45A3		Jones, H A	86	88	95	89		B	98		3.412
-34K5		Horner, M	67	75	23	55		F	17		1.745
-56J8		Gach, T A	75	85	90	83		B	60		3.726
-34U8		Hunter, C	100	50	75	75		C	75		2.584
-42P4		Hinrichs, S	85	75	65	75		C	52		3.242
-78T6		Johnson, K	80	78	89	82		B	15		2.118
-44L2		Levitte, H	56	66	99	73		C	100		2.343
-88I9		Garner, J	95	92	98	95		A	110		3.892
+88I9		Garner, J		95		92		98		95			A		110			3.892
+44L2		Levitte, H		56		66		99		73			C		100			2.343
+78T6		Johnson, K		80		78		89		82			B		15			2.118
+42P4		Hinrichs, S		85		75		65		75			C		52			3.242
+34U8		Hunter, C		100		50		75		75			C		75			2.584
+56J8		Gach, T A		75		85		90		83			B		60			3.726
+34K5		Horner, M		67		75		23		55			F		17			1.745
+45A3		Jones, H A		86		88		95		89			B		98			3.412
 
 Student ID	Student Name	Test 1	Test2	Test3	Avg Score	Grade	Total Hr	GPA
-34K5		Horner, M	67	75	23	55		F	17		1.745
-56J8		Gach, T A	75	85	90	83		B	60		3.726
-34U8		Hunter, C	100	50	75	75		C	75		2.584
-78T6		Johnson, K	80	78	89	82		B	15		2.118
-44L2		Levitte, H	56	66	99	73		C	100		2.343
-88I9		Garner, J	95	92	98	95		A	110		3.892
+88I9		Garner, J		95		92		98		95			A		110			3.892
+44L2		Levitte, H		56		66		99		73			C		100			2.343
+78T6		Johnson, K		80		78		89		82			B		15			2.118
+34U8		Hunter, C		100		50		75		75			C		75			2.584
+56J8		Gach, T A		75		85		90		83			B		60			3.726
+34K5		Horner, M		67		75		23		55			F		17			1.745
 
 Student ID	Student Name	Test 1	Test2	Test3	Avg Score	Grade	Total Hr	GPA
-88I9		Garner, J	95	92	98	95		A	110		3.892
-89P0		Singer, A	85	89	99	91		A	130		3.872
-67T4		Clouse, B	80	75	98	84		B	102		3.638
-56J8		Gach, T A	75	85	90	83		B	60		3.726
-78T6		Johnson, K	80	78	89	82		B	15		2.118
-34U8		Hunter, C	100	50	75	75		C	75		2.584
-45P5		Garrison, J	75	78	72	75		C	39		1.857
-44L2		Levitte, H	56	66	99	73		C	100		2.343
-34K5		Horner, M	67	75	23	55		F	17		1.745
--3.5 0.9 1.5 2.3 8.9 11.2 12.4 15.6 51.2 BUILD SUCCESSFUL (total time: 0 seconds)
+88I9		Garner, J		95		92		98		95			A		110			3.892
+89P0		Singer, A		85		89		99		91			A		130			3.872
+67T4		Clouse, B		80		75		98		84			B		102			3.638
+56J8		Gach, T A		75		85		90		83			B		60			3.726
+78T6		Johnson, K		80		78		89		82			B		15			2.118
+45P5		Garrison, J		75		78		72		75			C		39			1.857
+34U8		Hunter, C		100		50		75		75			C		75			2.584
+44L2		Levitte, H		56		66		99		73			C		100			2.343
+34K5		Horner, M		67		75		23		55			F		17			1.745
+
+Process finished with exit code 0
